@@ -1,11 +1,10 @@
 branch-defaults:
   main:
-    environment: null
+    environment: aws-eb-advanced-prod
     group_suffix: null
 global:
   application_name: aws-eb-advanced
   branch: null
-  default_platform: node.js 20 running
   default_region: eu-central-1
   profile: default
   repository: null
