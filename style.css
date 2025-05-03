@@ -90,3 +90,31 @@ article {
 .submit button:hover {
   background: #984aff;
 }
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 660px;
+}
+
+.progress .total_questions {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.progress .total_answers {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.reset {
+  text-align: center;
+}
+.reset button {
+  background: #a765ff;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+}

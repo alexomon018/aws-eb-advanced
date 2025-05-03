@@ -11,7 +11,7 @@ npm install
 ### Start Server
 
 ```sh
-PORT=4567 npm start
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/study-sync PORT=4567 npm start
 ```
 
 ### Start Docker Container
